@@ -16,6 +16,7 @@
 
 spl_autoload_register(array('PHP_CodeSniffer', 'autoload'));
 
+
 if (class_exists('PHP_CodeSniffer_Exception', true) === false) {
     throw new Exception('Class PHP_CodeSniffer_Exception not found');
 }
